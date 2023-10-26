@@ -18,18 +18,17 @@ const Header = () => {
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
-
   return (
     <div
-      className="p-6 fixed w-full z-20 bg-cover bg-no-repeat bg-center"
+      className="p-6 w-full lg:w-full z-20 bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: `url('images/Vector.png')` }}
     >
       <div className="flex justify-center items-center">
         <button
           onClick={toggleDropdown}
-          className="lg:hidden md:hidden sm:hidden text-white flex items-center gap-96"
+          className="lg:hidden md:hidden sm:hidden text-white flex justify-start items-center gap-40"
         >
-          <img src="images/logo 1.png" alt="logo" className="w-32" />
+          <img src="images/logo 1.png" alt="logo" className="w-36 " />
           <FiMenu className="text-2xl text-white" />
         </button>
         <div
@@ -50,7 +49,7 @@ const Header = () => {
       </div>
 
       {isDropdownOpen && (
-        <div className="lg:hidden md:hidden sm:hidden fixed right-4 top-16 bg-[#392B85] z-30 flex justify-center items-center text-center">
+        <div className="lg:hidden md:hidden sm:hidden fixed right-[450px] top-16 bg-[#392B85] z-30 flex items-center text-center">
           <div className="flex flex-col gap-4">
             {navLinks.map((link, index) => (
               <Link
@@ -64,7 +63,7 @@ const Header = () => {
                   <img
                     src={link.text}
                     alt="logo"
-                    className="h-10 w-auto right-4"
+                    className=" w-auto right-4 h-5"
                   />
                 ) : (
                   <span>{link.text}</span>

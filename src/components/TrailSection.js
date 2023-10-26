@@ -14,9 +14,13 @@ const TrailSection = () => {
       >
         <h1 className="text-white">JOIN OUR COMMUNITY</h1>
 
-        <h1 className="text-4xl text-white mt-4">
+        <h1 className="text-xl lg:text-4xl text-white mt-4">
           We are trusted by over
-          <span className="text-[#63D8A1] text-5xl"> 5000+</span> clients.
+          <span className="text-[#63D8A1] lg:text-5xl text-2xl">
+            {" "}
+            5000+
+          </span>{" "}
+          clients.
           <br />
           Join them now and grow your reach with us.
         </h1>

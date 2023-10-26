@@ -6,7 +6,7 @@ const ChooseUpSection = () => {
       className="mt-16 md:mt-32 lg:mt-48 flex flex-col justify-center items-center text-center px-4 md:px-8 lg:px-16"
       id="access"
     >
-      <h1 className="text-[#ADB3BE] text-3xl md:text-4xl lg:text-xl font-semibold mb-4 md:mb-6 mt-20">
+      <h1 className="text-[#ADB3BE] text-xl md:text-4xl lg:text-xl font-semibold mb-4 md:mb-6 mt-20">
         WHY CHOOSE FIND MY TRAILS?
       </h1>
       <p className="text-[#050F4E] text-lg md:text-2xl lg:text-3xl mt-4 md:mt-6">
@@ -36,20 +36,32 @@ const ChooseUpSection = () => {
             health.
           </p>
           <div className="flex mt-6 md:mt-8 lg:mt-10 gap-2">
-            <img src="images/Vector4.png" alt="vector" width={20} />
+            <img
+              src="images/Vector4.png"
+              alt="vector"
+              className="w-5  h-5 lg:w-5 lg:h-5"
+            />
             <p className="text-sm text-[#000000] md:text-base lg:text-sm">
               Ensuring patients join trials regardless of background or
               location.
             </p>
           </div>
           <div className="flex mt-2 md:mt-4 lg:mt-6 gap-2">
-            <img src="images/Vector4.png" alt="vector" width={20} />
+            <img
+              src="images/Vector4.png"
+              alt="vector"
+              className="w-5 h-5 lg:w-5 lg:h-5"
+            />
             <p className="text-sm text-[#000000] md:text-base lg:text-sm">
               Advocating diverse participation, breaking healthcare barriers.
             </p>
           </div>
           <div className="flex mt-2 md:mt-4 lg:mt-6 gap-2">
-            <img src="images/Vector4.png" alt="vector" width={20} />
+            <img
+              src="images/Vector4.png"
+              alt="vector"
+              className="w-5 h-5 lg:w-5 lg:h-5"
+            />
             <p className="text-sm text-[#000000] md:text-base lg:text-sm">
               Advancing medical science, benefiting all demographic groups.
             </p>

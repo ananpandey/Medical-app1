@@ -32,7 +32,7 @@ const QuestionSection = () => {
       <h1 className="text-[ADB3BE] contrast-50 font-semibold">
         HAVE ANY QUESTIONS?
       </h1>
-      <h1 className="text-[#050F4E] text-4xl mt-6">
+      <h1 className="text-[#050F4E] text-2xl lg:text-4xl mt-6">
         Frequently Asked Questions
       </h1>
 

@@ -13,8 +13,8 @@ const ArticleSection = () => {
       <div className="flex items-center justify-center relative">
         <div className="h-[470px] w-[1264px] bg-white flex justify-around items-center relative shadow-xl rounded-lg">
           <div className="flex flex-col p-8">
-            <h1 className="text-[#ADB38E]">Article</h1>
-            <h1 className="text-[#050F4E] text-4xl mt-4">
+            <h1 className="text-[#ADB38E] lg:ml-0 ml-[500px]">ARTICLE</h1>
+            <h1 className="text-[#050F4E] text-2xl lg:text-4xl mt-4 lg:ml-0 ml-[500px]">
               The Benefits Of Digital Sequence <br /> Information In Biological
               Research.
             </h1>

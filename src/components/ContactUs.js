@@ -7,7 +7,11 @@ const ContactUs = () => {
       id="contact"
     >
       <div className="flex flex-col mb-8 md:mb-0">
-        <img src="images/export.png" alt="export" className="md:mr-8" />
+        <img
+          src="images/export.png"
+          alt="export"
+          className="md:mr-8 w-48 lg:w-48 ml-24 lg:ml-0"
+        />
         <p className="mt-4 text-[#000000] text-center md:text-left">
           @ 2023 Find My Trials. <br />
           All right reserved.

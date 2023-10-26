@@ -18,11 +18,11 @@ const ExpenseSection = () => {
   return (
     <div
       id="images"
-      className="bg-[#F6F7F9] py-16 md:py-24 lg:py-32 h-[450px] mt-24"
+      className="bg-[#F6F7F9] py-16 md:py-24 lg:py-32 h-[600px] lg:h-[450px] mt-24"
     >
       <div className="flex flex-col md:flex-row justify-center items-center md:justify-evenly mx-4 md:mx-8 lg:mx-16">
         <div className="text-center md:text-left mr-0 md:mr-20 md:mb-0">
-          <h1 className="text-[#ADB3BE] text-3xl md:text-4xl lg:text-lg font-semibold mb-4 md:mb-6">
+          <h1 className="text-[#ADB3BE] text-xl md:text-4xl lg:text-lg font-semibold mb-4 md:mb-6">
             SAVE TIME AND MONEY
           </h1>
           <p className="text-[#050F4E] text-xl md:text-2xl lg:text-4xl">
